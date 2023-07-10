@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+/* start banner style */
+.banner-main{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px 0px 240px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+.banner-tittle {
+    color: #272727;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.banner-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+
+}
+
+.shop-btn {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color:white;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+.banner-img{
+    width: 500px;
+    height: 600px;
+}
+/* end banner style */
+
+/* Our Featured Flowers start */
+
+
+/* Our Featured Flowers end */
