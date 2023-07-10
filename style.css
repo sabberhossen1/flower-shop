@@ -33,7 +33,8 @@ body {
 
 }
 
-.shop-btn,.sing-up {
+.shop-btn,
+.sing-up {
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
@@ -76,6 +77,8 @@ body {
 .box-main {
     display: flex;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .our-box-one {
@@ -170,6 +173,37 @@ body {
     margin-bottom: 30px;
 
 }
+
 /* hot deal section end here */
 /* start here instragram section */
+.instragram-tittle {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.instragram-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.instragram{
+    margin:120px 240px 120px 240px;
+}
+.img-box>img{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+}
+.instagram-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 /* end here instragram section */
