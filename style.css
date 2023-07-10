@@ -6,8 +6,9 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
 /* start banner style */
-.banner-main{
+.banner-main {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     padding: 50px 240px 0px 240px;
@@ -15,9 +16,10 @@ body {
     align-items: center;
     gap: 60px;
 }
+
 .banner-tittle {
     color: #272727;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 800;
     line-height: normal;
     margin-bottom: 32px;
@@ -31,22 +33,143 @@ body {
 
 }
 
-.shop-btn {
+.shop-btn,.sing-up {
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
-    color:white;
+    color: white;
     border: 0;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 40px;
 }
-.banner-img{
+
+.banner-img {
     width: 500px;
     height: 600px;
+
 }
+
 /* end banner style */
 
 /* Our Featured Flowers start */
+.our-featured {
+    margin: 150px 240px 120px 240px;
+}
 
+.our-tittle {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.our-p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 45px;
+
+}
+
+.box-main {
+    display: flex;
+    gap: 20px;
+}
+
+.our-box-one {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 65px 0 65px;
+}
+
+.img-size {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: 0;
+}
+
+.box-p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #272727;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.flw {
+    background: rgba(5, 151, 160, 0.15)
+}
+
+.flww {
+    background: rgba(71, 125, 17, 0.15);
+
+}
 
 /* Our Featured Flowers end */
+
+/* start extra section */
+.extra {
+    margin: 120px 240px 120px 240px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 80px 170px 80px 170px;
+    gap: 60px;
+}
+
+.extra-box img {
+    width: 88px;
+    height: 88px;
+}
+
+.extra-p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+/* extra end here */
+/* hot deal section start here */
+.hot-deal {
+    padding: 100px 400px 100px 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgba(229, 84, 115, 0.05);
+
+}
+
+.hot-deal-img {
+    width: 250px;
+    height: 350px;
+}
+
+.hot-tittle {
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 24px;
+}
+
+.off {
+    color: #E55473;
+}
+
+.hot-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+/* hot deal section end here */
+/* start here instragram section */
+/* end here instragram section */
