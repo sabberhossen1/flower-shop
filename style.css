@@ -281,24 +281,27 @@ get the latest deals */
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 
 }
+
 /* .latest-info{
   padding-top: 122px;
 } */
-.latest-input{
+.latest-input {
     text-align: center;
 }
-.input-text{
-border: 0;
-border-radius: 8px;
-background: #FFF;
-width: 500px;
-height: 30px;
-padding: 10px 30px;
+
+.input-text {
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+    height: 30px;
+    padding: 10px 30px;
 }
-.input-btn{
+
+.input-btn {
     padding: 15px 35px;
     border-radius: 8px;
     background: #E55473;
@@ -308,4 +311,37 @@ padding: 10px 30px;
     font-size: 16px;
     margin-bottom: 40px;
     margin-left: 10px;
+}
+
+/* footer section  */
+footer {
+    background-color: black;
+    color: white;
+    padding: 120px 440px 120px 440px;
+    text-align: center;
+}
+
+.footer-flower {
+    color: #E55473;
+}
+
+.footer-tittle {
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 24px;
+
+}
+
+.footer-p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+
+}
+
+.footer-copy {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
