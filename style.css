@@ -191,15 +191,18 @@ body {
     margin-top: 24px;
     margin-bottom: 30px;
 }
-.instragram{
-    margin:120px 240px 120px 240px;
+
+.instragram {
+    margin: 120px 240px 120px 240px;
 }
-.img-box>img{
+
+.img-box>img {
     width: 250px;
     height: 300px;
     border-radius: 5px;
 }
-.instagram-img{
+
+.instagram-img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -207,3 +210,61 @@ body {
 }
 
 /* end here instragram section */
+
+/* start love section */
+.love-tittle {
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.love-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.love-price {
+    display: flex;
+    margin: 10px 240px 100px 240px;
+    justify-content: space-around;
+}
+
+.love-box>img {
+    width: 250px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.love-box {
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 5px;
+
+}
+
+.love-info {
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.love-info>p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.love-info>button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: #E55473;
+    border-radius: 5px;
+}
+
+/* end love section */
